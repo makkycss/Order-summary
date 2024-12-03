@@ -1,0 +1,109 @@
+body{
+    background: url(images/pattern-background-desktop.svg);
+    background-repeat:no-repeat;
+    background-color: rgb(223, 237, 250);
+}
+.container{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 100%;
+        height: 100%;    
+}
+.card{
+    width: 350px;
+        
+        border-bottom: 20px;
+        background: white;
+        text-align: center;
+        border: 1px solid hwb(0 100% 0%);
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px 5px silver;
+        font-size: 10px;
+        font-weight: 500;
+        
+        
+
+}
+.pad{
+    padding:40px;
+}
+.card img{
+    width: 350px;
+    border-radius: 10px 10px 0px 0px;
+}
+.card h1{
+    font-size: 15px;
+    margin-top: 20px;
+    font-weight: bolder;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card p{
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: hsl(224, 23%, 55%);
+}
+.card span{
+    font-size: 13px;
+}
+.card button{
+    background: hsl(245, 75%, 52%);
+    padding: 10px 80px;
+    border: none;
+    font-size: 11px;
+    border-radius: 8px;
+    color: aliceblue;
+    font-weight: bold;
+    
+}
+.flex{
+    width: 100%;
+    height: 60px;
+    background: aliceblue;
+    display: flex;
+    padding: 5px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+   
+
+   
+
+}
+.flex img{
+   width: 60px;
+   height: 90px;
+    margin-top: 10px;
+    
+}
+.flex h3{
+    margin-top: 25px;
+    font-size: 12px;
+    margin-right: 10px;
+    font-weight: 700;
+    
+}
+.flex h3 a{
+    color: hsl(245, 75%, 52%);
+}
+.flex h3 :active{
+    color: rgb(113, 67, 250);
+}
+.flex h2{
+    font-size: 13px;
+    margin-top: 15px;
+    margin-right: 80px;
+    color: hsl(223, 47%, 23%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+}
+h3{
+    color: hsl(224, 23%, 55%);
+    font-weight: 800;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
